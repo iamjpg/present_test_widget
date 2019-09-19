@@ -1,8 +1,11 @@
 <template>
 <div id="johnnyonit">
-  <div id="joi-tagline">For home service solutions in real-time<br />
-    Download Johnny On It:<br />
-    <br />
+  <div id="joi-tagline">
+    <h3>
+      For home service solutions in real-time<br />
+      Download Johnny On It:
+    </h3>
+
     <img src="https://www.qr-code-generator.com/wp-content/themes/qr/new_structure/markets/core_market_full/generator/dist/generator/assets/images/websiteQRCode_noFrame.png" width="200" /></div>
 
   <table id="joi-agent">
@@ -47,38 +50,39 @@ export default {
 
 <style lang="scss">
 #johnnyonit {
-    position: relative;
-    height: calc(100vh - 110px);
-    background: #238D77;
-    color: #fff;
-    padding: 20px;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  position: relative;
+  height: calc(100vh - 110px);
+  background-image: url('https://i.imgur.com/DYdWBME.png');
+  color: #222;
+  padding: 50px;
 }
 #johnnyonit {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 #johnnyonit table {
-    width: unset;
+  width: unset;
 }
 
 #joi-agent {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
 }
 
 #joi-logo {
-    position: absolute;
-    bottom: 85px;
-    right: 20px;
+  position: absolute;
+  bottom: 109px;
+  right: 50px;
 }
 
 #joi-agent-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    background-size: cover;
-    background-position: center;
-    border: 3px solid #37E6F2;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #37E6F2;
 }
 </style>
